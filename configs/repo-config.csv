@@ -1,2 +1,16 @@
-Repository's Location,Branch,File formats,Find Previous Authors,Ignore Glob List,Ignore standalone config,Ignore Commits List,Ignore Authors List,Shallow Cloning,File Size Limit,Ignore File Size Limit,Skip Ignored File Analysis
-https://github.com/reposense/RepoSense.git,master,,,,,,,,,,
+Repository's Location,Branch,File Formats,Ignore Glob List,Ignore standalone config,Ignore Commits List,Ignore Authors List,Shallow Cloning,Find Previous Authors
+https://github.com/Elliott-Han-YuGeng/duke.git,master,,tutorials/**;gradlew.bat,,,,,
+https://github.com/JiaXingVV/duke.git,master,,tutorials/**;gradlew.bat,,,,,
+https://github.com/mfarhan-s/duke.git,master,,tutorials/**;gradlew.bat,,,,,
+https://github.com/goosekite/duke.git,master,,tutorials/**;gradlew.bat,,,,,
+https://github.com/JoelEeWH/duke.git,master,,tutorials/**;gradlew.bat,,,,,
+https://github.com/LeeTheGreat/duke.git,master,,tutorials/**;gradlew.bat,,,,,
+https://github.com/stanleysee12/duke.git,master,,tutorials/**;gradlew.bat,,,,,
+https://github.com/youyiwan/duke.git,master,,tutorials/**;gradlew.bat,,,,,
+https://github.com/anythingwhatever192940958/duke.git,master,,tutorials/**;gradlew.bat,,,,,
+https://github.com/jelemii/duke.git,master,,tutorials/**;gradlew.bat,,,,,
+https://github.com/sbkiang/duke.git,master,,tutorials/**;gradlew.bat,,,,,
+https://github.com/Carosis/duke.git,master,,tutorials/**;gradlew.bat,,,,,
+https://github.com/Pc1234321/duke.git,master,,tutorials/**;gradlew.bat,,,,,
+https://github.com/orngcoffees/duke.git,master,,tutorials/**;gradlew.bat,,,,,
+https://github.com/mavericktjj/duke.git,master,,tutorials/**;gradlew.bat,,,,,
