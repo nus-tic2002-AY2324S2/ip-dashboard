@@ -1,10 +1,10 @@
-Feb 19, 2024 6:07:05 PM reposense.system.LogsManager addFileHandler
+Feb 20, 2024 12:49:02 AM reposense.system.LogsManager addFileHandler
 INFO: Log temp folder has been successfully created
-Feb 19, 2024 6:07:05 PM reposense.parser.CsvParser validateHeader
+Feb 20, 2024 12:49:02 AM reposense.parser.CsvParser validateHeader
 INFO: Parsed header of CSV file, repo-config.csv, and recognized columns: Ignore Standalone Config,  Repository's Location,  Branch,  Shallow Cloning,  File formats,  Ignore Glob List,  Ignore Authors List,  Find Previous Authors,  Ignore Commits List
-Feb 19, 2024 6:07:05 PM reposense.parser.CsvParser validateHeader
+Feb 20, 2024 12:49:02 AM reposense.parser.CsvParser validateHeader
 INFO: Parsed header of CSV file, author-config.csv, and recognized columns: Author's Emails,  Repository's Location,  Author's GitHub ID,  Branch,  Author's Display Name,  Ignore Glob List,  Author's Git Author Name
-Feb 19, 2024 6:07:05 PM reposense.git.GitConfig getGlobalGitLfsConfig
+Feb 20, 2024 12:49:02 AM reposense.git.GitConfig getGlobalGitLfsConfig
 WARNING: Could not get global git lfs config
 java.lang.RuntimeException: reposense.system.CommandRunnerProcessException: Error returned from command git config --global --list on path . :
 fatal: unable to read config file '/home/runner/.gitconfig': No such file or directory
@@ -20,71 +20,71 @@ fatal: unable to read config file '/home/runner/.gitconfig': No such file or dir
 	at reposense.system.CommandRunner.runCommand(CommandRunner.java:21)
 	... 3 more
 
-Feb 19, 2024 6:07:05 PM reposense.report.RepoCloner spawnCloneProcess
-INFO: Cloning in parallel from https://github.com/Carosis/duke.git...
-Feb 19, 2024 6:07:05 PM reposense.report.RepoCloner spawnCloneProcess
+Feb 20, 2024 12:49:02 AM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/mfarhan-s/duke.git...
-Feb 19, 2024 6:07:05 PM reposense.report.RepoCloner spawnCloneProcess
+Feb 20, 2024 12:49:02 AM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/Carosis/duke.git...
+Feb 20, 2024 12:49:02 AM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/anythingwhatever192940958/duke.git...
-Feb 19, 2024 6:07:05 PM reposense.report.RepoCloner spawnCloneProcess
+Feb 20, 2024 12:49:02 AM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/Elliott-Han-YuGeng/duke.git...
-Feb 19, 2024 6:07:05 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/Carosis/duke.git to complete...
-Feb 19, 2024 6:07:05 PM reposense.report.RepoCloner waitForCloneProcess
+Feb 20, 2024 12:49:02 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/mfarhan-s/duke.git to complete...
-Feb 19, 2024 6:07:05 PM reposense.report.RepoCloner waitForCloneProcess
+Feb 20, 2024 12:49:02 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/Carosis/duke.git to complete...
+Feb 20, 2024 12:49:02 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/Elliott-Han-YuGeng/duke.git to complete...
-Feb 19, 2024 6:07:05 PM reposense.report.RepoCloner waitForCloneProcess
+Feb 20, 2024 12:49:02 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/anythingwhatever192940958/duke.git to complete...
-Feb 19, 2024 6:07:05 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Cloning of https://github.com/Elliott-Han-YuGeng/duke.git completed!
-Feb 19, 2024 6:07:05 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Cloning of https://github.com/mfarhan-s/duke.git completed!
-Feb 19, 2024 6:07:05 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [1/15] Analyzing https://github.com/Elliott-Han-YuGeng/duke.git (master)...
-Feb 19, 2024 6:07:05 PM reposense.report.RepoCloner spawnCloneProcess
-INFO: Cloning in parallel from https://github.com/stanleysee12/duke.git...
-Feb 19, 2024 6:07:05 PM reposense.report.RepoCloner waitForCloneProcess
+Feb 20, 2024 12:49:02 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/anythingwhatever192940958/duke.git completed!
-Feb 19, 2024 6:07:05 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/stanleysee12/duke.git to complete...
-Feb 19, 2024 6:07:05 PM reposense.report.RepoCloner waitForCloneProcess
+Feb 20, 2024 12:49:02 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Cloning of https://github.com/Elliott-Han-YuGeng/duke.git completed!
+Feb 20, 2024 12:49:02 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/Carosis/duke.git completed!
-Feb 19, 2024 6:07:05 PM reposense.report.RepoCloner spawnCloneProcess
+Feb 20, 2024 12:49:02 AM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/stanleysee12/duke.git...
+Feb 20, 2024 12:49:02 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Cloning of https://github.com/mfarhan-s/duke.git completed!
+Feb 20, 2024 12:49:02 AM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/Pc1234321/duke.git...
-Feb 19, 2024 6:07:05 PM reposense.report.RepoCloner spawnCloneProcess
+Feb 20, 2024 12:49:02 AM reposense.report.ReportGenerator analyzeRepos
+INFO: [1/15] Analyzing https://github.com/anythingwhatever192940958/duke.git (master)...
+Feb 20, 2024 12:49:02 AM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/JiaXingVV/duke.git...
-Feb 19, 2024 6:07:05 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [3/15] Analyzing https://github.com/mfarhan-s/duke.git (master)...
-Feb 19, 2024 6:07:05 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [2/15] Analyzing https://github.com/anythingwhatever192940958/duke.git (master)...
-Feb 19, 2024 6:07:05 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/JiaXingVV/duke.git to complete...
-Feb 19, 2024 6:07:05 PM reposense.report.ReportGenerator updateRepoConfig
-INFO: https://github.com/Elliott-Han-YuGeng/duke.git (master) does not contain a standalone config file.
-Feb 19, 2024 6:07:05 PM reposense.report.RepoCloner spawnCloneProcess
-INFO: Cloning in parallel from https://github.com/goosekite/duke.git...
-Feb 19, 2024 6:07:05 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [4/15] Analyzing https://github.com/Carosis/duke.git (master)...
-Feb 19, 2024 6:07:05 PM reposense.report.RepoCloner waitForCloneProcess
+Feb 20, 2024 12:49:02 AM reposense.report.ReportGenerator analyzeRepos
+INFO: [2/15] Analyzing https://github.com/mfarhan-s/duke.git (master)...
+Feb 20, 2024 12:49:02 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/Pc1234321/duke.git to complete...
-Feb 19, 2024 6:07:05 PM reposense.report.RepoCloner waitForCloneProcess
+Feb 20, 2024 12:49:02 AM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/goosekite/duke.git...
+Feb 20, 2024 12:49:02 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/stanleysee12/duke.git to complete...
+Feb 20, 2024 12:49:02 AM reposense.report.ReportGenerator analyzeRepos
+INFO: [4/15] Analyzing https://github.com/Elliott-Han-YuGeng/duke.git (master)...
+Feb 20, 2024 12:49:02 AM reposense.report.ReportGenerator analyzeRepos
+INFO: [3/15] Analyzing https://github.com/Carosis/duke.git (master)...
+Feb 20, 2024 12:49:02 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/goosekite/duke.git to complete...
-Feb 19, 2024 6:07:05 PM reposense.report.ReportGenerator updateRepoConfig
+Feb 20, 2024 12:49:02 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/JiaXingVV/duke.git to complete...
+Feb 20, 2024 12:49:02 AM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/mfarhan-s/duke.git (master) does not contain a standalone config file.
-Feb 19, 2024 6:07:05 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
-INFO: Extracting relevant file info from https://github.com/Elliott-Han-YuGeng/duke.git (master)...
-Feb 19, 2024 6:07:05 PM reposense.report.ReportGenerator updateRepoConfig
+Feb 20, 2024 12:49:02 AM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/Carosis/duke.git (master) does not contain a standalone config file.
-Feb 19, 2024 6:07:05 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
-INFO: Extracting relevant file info from https://github.com/Carosis/duke.git (master)...
-Feb 19, 2024 6:07:05 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Feb 20, 2024 12:49:02 AM reposense.report.ReportGenerator updateRepoConfig
+INFO: https://github.com/Elliott-Han-YuGeng/duke.git (master) does not contain a standalone config file.
+Feb 20, 2024 12:49:02 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/mfarhan-s/duke.git (master)...
-Feb 19, 2024 6:07:05 PM reposense.report.ReportGenerator updateRepoConfig
+Feb 20, 2024 12:49:02 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
+INFO: Extracting relevant file info from https://github.com/Carosis/duke.git (master)...
+Feb 20, 2024 12:49:02 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
+INFO: Extracting relevant file info from https://github.com/Elliott-Han-YuGeng/duke.git (master)...
+Feb 20, 2024 12:49:02 AM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/anythingwhatever192940958/duke.git (master) does not contain a standalone config file.
-Feb 19, 2024 6:07:05 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Feb 20, 2024 12:49:02 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/anythingwhatever192940958/duke.git (master)...
-Feb 19, 2024 6:07:05 PM reposense.report.RepoCloner waitForCloneProcess
+Feb 20, 2024 12:49:02 AM reposense.report.RepoCloner waitForCloneProcess
 WARNING: Exception met while trying to clone the repo "JiaXingVV/duke[master]", will skip this repo.
 reposense.system.CommandRunnerProcessException: Error returned from command git clone --bare 'https://github.com/JiaXingVV/duke.git' 'repos/JiaXingVV_duke/duke_bare' on path . :
 Cloning into bare repository 'repos/JiaXingVV_duke/duke_bare'...
@@ -100,199 +100,199 @@ fatal: could not read Username for 'https://github.com': No such device or addre
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
-Feb 19, 2024 6:07:05 PM reposense.report.RepoCloner spawnCloneProcess
+Feb 20, 2024 12:49:02 AM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/youyiwan/duke.git...
-Feb 19, 2024 6:07:05 PM reposense.report.RepoCloner waitForCloneProcess
+Feb 20, 2024 12:49:02 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/youyiwan/duke.git to complete...
-Feb 19, 2024 6:07:05 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+Feb 20, 2024 12:49:02 AM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/Elliott-Han-YuGeng/duke.git (master)...
-Feb 19, 2024 6:07:05 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+Feb 20, 2024 12:49:02 AM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/anythingwhatever192940958/duke.git (master)...
-Feb 19, 2024 6:07:05 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/Elliott-Han-YuGeng/duke.git (master)...
-Feb 19, 2024 6:07:05 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/anythingwhatever192940958/duke.git (master)...
-Feb 19, 2024 6:07:05 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Cloning of https://github.com/Pc1234321/duke.git completed!
-Feb 19, 2024 6:07:05 PM reposense.report.RepoCloner waitForCloneProcess
+Feb 20, 2024 12:49:02 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/stanleysee12/duke.git completed!
-Feb 19, 2024 6:07:05 PM reposense.report.RepoCloner spawnCloneProcess
+Feb 20, 2024 12:49:02 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/Elliott-Han-YuGeng/duke.git (master)...
+Feb 20, 2024 12:49:02 AM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/orngcoffees/duke.git...
-Feb 19, 2024 6:07:05 PM reposense.report.RepoCloner spawnCloneProcess
-INFO: Cloning in parallel from https://github.com/JoelEeWH/duke.git...
-Feb 19, 2024 6:07:05 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/JoelEeWH/duke.git to complete...
-Feb 19, 2024 6:07:05 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/orngcoffees/duke.git to complete...
-Feb 19, 2024 6:07:05 PM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/Elliott-Han-YuGeng/duke.git (master) completed!
-Feb 19, 2024 6:07:05 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [5/15] Analyzing https://github.com/stanleysee12/duke.git (master)...
-Feb 19, 2024 6:07:05 PM reposense.report.RepoCloner waitForCloneProcess
+Feb 20, 2024 12:49:02 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Cloning of https://github.com/Pc1234321/duke.git completed!
+Feb 20, 2024 12:49:02 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/goosekite/duke.git completed!
-Feb 19, 2024 6:07:05 PM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/anythingwhatever192940958/duke.git (master) completed!
-Feb 19, 2024 6:07:05 PM reposense.report.RepoCloner spawnCloneProcess
+Feb 20, 2024 12:49:02 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/anythingwhatever192940958/duke.git (master)...
+Feb 20, 2024 12:49:02 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/orngcoffees/duke.git to complete...
+Feb 20, 2024 12:49:02 AM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/JoelEeWH/duke.git...
+Feb 20, 2024 12:49:02 AM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/mavericktjj/duke.git...
-Feb 19, 2024 6:07:05 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [6/15] Analyzing https://github.com/Pc1234321/duke.git (master)...
-Feb 19, 2024 6:07:05 PM reposense.report.RepoCloner waitForCloneProcess
+Feb 20, 2024 12:49:02 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/mavericktjj/duke.git to complete...
-Feb 19, 2024 6:07:05 PM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/mfarhan-s/duke.git (master)...
-Feb 19, 2024 6:07:05 PM reposense.report.RepoCloner waitForCloneProcess
+Feb 20, 2024 12:49:02 AM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/Elliott-Han-YuGeng/duke.git (master) completed!
+Feb 20, 2024 12:49:02 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/JoelEeWH/duke.git to complete...
+Feb 20, 2024 12:49:02 AM reposense.report.ReportGenerator analyzeRepos
+INFO: [5/15] Analyzing https://github.com/stanleysee12/duke.git (master)...
+Feb 20, 2024 12:49:03 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/youyiwan/duke.git completed!
-Feb 19, 2024 6:07:06 PM reposense.report.ReportGenerator updateRepoConfig
-INFO: https://github.com/stanleysee12/duke.git (master) does not contain a standalone config file.
-Feb 19, 2024 6:07:06 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
-INFO: Extracting relevant file info from https://github.com/stanleysee12/duke.git (master)...
-Feb 19, 2024 6:07:06 PM reposense.report.RepoCloner spawnCloneProcess
+Feb 20, 2024 12:49:03 AM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/LeeTheGreat/duke.git...
-Feb 19, 2024 6:07:06 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/mfarhan-s/duke.git (master)...
-Feb 19, 2024 6:07:06 PM reposense.report.ReportGenerator updateRepoConfig
-INFO: https://github.com/Pc1234321/duke.git (master) does not contain a standalone config file.
-Feb 19, 2024 6:07:06 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
-INFO: Extracting relevant file info from https://github.com/Pc1234321/duke.git (master)...
-Feb 19, 2024 6:07:06 PM reposense.report.RepoCloner waitForCloneProcess
+Feb 20, 2024 12:49:03 AM reposense.report.ReportGenerator updateRepoConfig
+INFO: https://github.com/stanleysee12/duke.git (master) does not contain a standalone config file.
+Feb 20, 2024 12:49:03 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
+INFO: Extracting relevant file info from https://github.com/stanleysee12/duke.git (master)...
+Feb 20, 2024 12:49:03 AM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/anythingwhatever192940958/duke.git (master) completed!
+Feb 20, 2024 12:49:03 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/LeeTheGreat/duke.git to complete...
-Feb 19, 2024 6:07:06 PM reposense.report.ReportGenerator analyzeRepo
+Feb 20, 2024 12:49:03 AM reposense.report.ReportGenerator analyzeRepos
+INFO: [6/15] Analyzing https://github.com/Pc1234321/duke.git (master)...
+Feb 20, 2024 12:49:03 AM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/mfarhan-s/duke.git (master)...
+Feb 20, 2024 12:49:03 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/mfarhan-s/duke.git (master)...
+Feb 20, 2024 12:49:03 AM reposense.report.ReportGenerator updateRepoConfig
+INFO: https://github.com/Pc1234321/duke.git (master) does not contain a standalone config file.
+Feb 20, 2024 12:49:03 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
+INFO: Extracting relevant file info from https://github.com/Pc1234321/duke.git (master)...
+Feb 20, 2024 12:49:03 AM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/mfarhan-s/duke.git (master) completed!
-Feb 19, 2024 6:07:06 PM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/Carosis/duke.git (master)...
-Feb 19, 2024 6:07:06 PM reposense.report.ReportGenerator analyzeRepos
+Feb 20, 2024 12:49:03 AM reposense.report.ReportGenerator analyzeRepos
 INFO: [7/15] Analyzing https://github.com/goosekite/duke.git (master)...
-Feb 19, 2024 6:07:06 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Feb 20, 2024 12:49:03 AM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/Carosis/duke.git (master)...
+Feb 20, 2024 12:49:03 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/Carosis/duke.git (master)...
-Feb 19, 2024 6:07:06 PM reposense.report.ReportGenerator updateRepoConfig
-INFO: https://github.com/goosekite/duke.git (master) does not contain a standalone config file.
-Feb 19, 2024 6:07:06 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
-INFO: Extracting relevant file info from https://github.com/goosekite/duke.git (master)...
-Feb 19, 2024 6:07:06 PM reposense.report.ReportGenerator analyzeRepo
+Feb 20, 2024 12:49:03 AM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/Carosis/duke.git (master) completed!
-Feb 19, 2024 6:07:06 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Cloning of https://github.com/JoelEeWH/duke.git completed!
-Feb 19, 2024 6:07:06 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Cloning of https://github.com/orngcoffees/duke.git completed!
-Feb 19, 2024 6:07:06 PM reposense.report.ReportGenerator analyzeRepos
+Feb 20, 2024 12:49:03 AM reposense.report.ReportGenerator analyzeRepos
 INFO: [8/15] Analyzing https://github.com/youyiwan/duke.git (master)...
-Feb 19, 2024 6:07:06 PM reposense.report.RepoCloner spawnCloneProcess
+Feb 20, 2024 12:49:03 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Cloning of https://github.com/orngcoffees/duke.git completed!
+Feb 20, 2024 12:49:03 AM reposense.report.ReportGenerator updateRepoConfig
+INFO: https://github.com/goosekite/duke.git (master) does not contain a standalone config file.
+Feb 20, 2024 12:49:03 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
+INFO: Extracting relevant file info from https://github.com/goosekite/duke.git (master)...
+Feb 20, 2024 12:49:03 AM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/sbkiang/duke.git...
-Feb 19, 2024 6:07:06 PM reposense.report.RepoCloner spawnCloneProcess
-INFO: Cloning in parallel from https://github.com/jelemii/duke.git...
-Feb 19, 2024 6:07:06 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/sbkiang/duke.git to complete...
-Feb 19, 2024 6:07:06 PM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/stanleysee12/duke.git (master)...
-Feb 19, 2024 6:07:06 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/jelemii/duke.git to complete...
-Feb 19, 2024 6:07:06 PM reposense.report.ReportGenerator updateRepoConfig
-INFO: https://github.com/youyiwan/duke.git (master) does not contain a standalone config file.
-Feb 19, 2024 6:07:06 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
-INFO: Extracting relevant file info from https://github.com/youyiwan/duke.git (master)...
-Feb 19, 2024 6:07:06 PM reposense.report.RepoCloner waitForCloneProcess
+Feb 20, 2024 12:49:03 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Cloning of https://github.com/JoelEeWH/duke.git completed!
+Feb 20, 2024 12:49:03 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/mavericktjj/duke.git completed!
-Feb 19, 2024 6:07:06 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/stanleysee12/duke.git (master)...
-Feb 19, 2024 6:07:06 PM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/stanleysee12/duke.git (master) completed!
-Feb 19, 2024 6:07:06 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [9/15] Analyzing https://github.com/JoelEeWH/duke.git (master)...
-Feb 19, 2024 6:07:06 PM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/goosekite/duke.git (master)...
-Feb 19, 2024 6:07:06 PM reposense.report.ReportGenerator updateRepoConfig
-INFO: https://github.com/JoelEeWH/duke.git (master) does not contain a standalone config file.
-Feb 19, 2024 6:07:06 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
-INFO: Extracting relevant file info from https://github.com/JoelEeWH/duke.git (master)...
-Feb 19, 2024 6:07:06 PM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/Pc1234321/duke.git (master)...
-Feb 19, 2024 6:07:06 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/goosekite/duke.git (master)...
-Feb 19, 2024 6:07:06 PM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/goosekite/duke.git (master) completed!
-Feb 19, 2024 6:07:06 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [10/15] Analyzing https://github.com/orngcoffees/duke.git (master)...
-Feb 19, 2024 6:07:06 PM reposense.report.RepoCloner waitForCloneProcess
+Feb 20, 2024 12:49:03 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/sbkiang/duke.git to complete...
+Feb 20, 2024 12:49:03 AM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/jelemii/duke.git...
+Feb 20, 2024 12:49:03 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/jelemii/duke.git to complete...
+Feb 20, 2024 12:49:03 AM reposense.report.ReportGenerator updateRepoConfig
+INFO: https://github.com/youyiwan/duke.git (master) does not contain a standalone config file.
+Feb 20, 2024 12:49:03 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
+INFO: Extracting relevant file info from https://github.com/youyiwan/duke.git (master)...
+Feb 20, 2024 12:49:03 AM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/stanleysee12/duke.git (master)...
+Feb 20, 2024 12:49:03 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/LeeTheGreat/duke.git completed!
-Feb 19, 2024 6:07:06 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Feb 20, 2024 12:49:03 AM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/Pc1234321/duke.git (master)...
+Feb 20, 2024 12:49:03 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/stanleysee12/duke.git (master)...
+Feb 20, 2024 12:49:03 AM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/goosekite/duke.git (master)...
+Feb 20, 2024 12:49:03 AM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/stanleysee12/duke.git (master) completed!
+Feb 20, 2024 12:49:03 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/Pc1234321/duke.git (master)...
-Feb 19, 2024 6:07:06 PM reposense.report.ReportGenerator updateRepoConfig
-INFO: https://github.com/orngcoffees/duke.git (master) does not contain a standalone config file.
-Feb 19, 2024 6:07:06 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
-INFO: Extracting relevant file info from https://github.com/orngcoffees/duke.git (master)...
-Feb 19, 2024 6:07:06 PM reposense.report.ReportGenerator analyzeRepo
+Feb 20, 2024 12:49:03 AM reposense.report.ReportGenerator analyzeRepos
+INFO: [9/15] Analyzing https://github.com/orngcoffees/duke.git (master)...
+Feb 20, 2024 12:49:03 AM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/Pc1234321/duke.git (master) completed!
-Feb 19, 2024 6:07:06 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [11/15] Analyzing https://github.com/mavericktjj/duke.git (master)...
-Feb 19, 2024 6:07:06 PM reposense.report.ReportGenerator updateRepoConfig
+Feb 20, 2024 12:49:03 AM reposense.report.ReportGenerator analyzeRepos
+INFO: [10/15] Analyzing https://github.com/mavericktjj/duke.git (master)...
+Feb 20, 2024 12:49:03 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/goosekite/duke.git (master)...
+Feb 20, 2024 12:49:03 AM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/goosekite/duke.git (master) completed!
+Feb 20, 2024 12:49:03 AM reposense.report.ReportGenerator analyzeRepos
+INFO: [11/15] Analyzing https://github.com/JoelEeWH/duke.git (master)...
+Feb 20, 2024 12:49:03 AM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/mavericktjj/duke.git (master) does not contain a standalone config file.
-Feb 19, 2024 6:07:06 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Feb 20, 2024 12:49:03 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/mavericktjj/duke.git (master)...
-Feb 19, 2024 6:07:06 PM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/youyiwan/duke.git (master)...
-Feb 19, 2024 6:07:06 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Cloning of https://github.com/jelemii/duke.git completed!
-Feb 19, 2024 6:07:06 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Cloning of https://github.com/sbkiang/duke.git completed!
-Feb 19, 2024 6:07:06 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/youyiwan/duke.git (master)...
-Feb 19, 2024 6:07:06 PM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/youyiwan/duke.git (master) completed!
-Feb 19, 2024 6:07:06 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [12/15] Analyzing https://github.com/LeeTheGreat/duke.git (master)...
-Feb 19, 2024 6:07:06 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+Feb 20, 2024 12:49:03 AM reposense.report.ReportGenerator updateRepoConfig
+INFO: https://github.com/orngcoffees/duke.git (master) does not contain a standalone config file.
+Feb 20, 2024 12:49:03 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
+INFO: Extracting relevant file info from https://github.com/orngcoffees/duke.git (master)...
+Feb 20, 2024 12:49:03 AM reposense.report.ReportGenerator updateRepoConfig
+INFO: https://github.com/JoelEeWH/duke.git (master) does not contain a standalone config file.
+Feb 20, 2024 12:49:03 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
+INFO: Extracting relevant file info from https://github.com/JoelEeWH/duke.git (master)...
+Feb 20, 2024 12:49:03 AM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/mavericktjj/duke.git (master)...
-Feb 19, 2024 6:07:06 PM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/JoelEeWH/duke.git (master)...
-Feb 19, 2024 6:07:06 PM reposense.report.ReportGenerator updateRepoConfig
-INFO: https://github.com/LeeTheGreat/duke.git (master) does not contain a standalone config file.
-Feb 19, 2024 6:07:06 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
-INFO: Extracting relevant file info from https://github.com/LeeTheGreat/duke.git (master)...
-Feb 19, 2024 6:07:06 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Feb 20, 2024 12:49:03 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Cloning of https://github.com/sbkiang/duke.git completed!
+Feb 20, 2024 12:49:03 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Cloning of https://github.com/jelemii/duke.git completed!
+Feb 20, 2024 12:49:03 AM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/youyiwan/duke.git (master)...
+Feb 20, 2024 12:49:03 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/mavericktjj/duke.git (master)...
-Feb 19, 2024 6:07:06 PM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/orngcoffees/duke.git (master)...
-Feb 19, 2024 6:07:06 PM reposense.report.ReportGenerator analyzeRepo
+Feb 20, 2024 12:49:03 AM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/mavericktjj/duke.git (master) completed!
-Feb 19, 2024 6:07:06 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [13/15] Analyzing https://github.com/sbkiang/duke.git (master)...
-Feb 19, 2024 6:07:06 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/JoelEeWH/duke.git (master)...
-Feb 19, 2024 6:07:06 PM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/JoelEeWH/duke.git (master) completed!
-Feb 19, 2024 6:07:06 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [14/15] Analyzing https://github.com/jelemii/duke.git (master)...
-Feb 19, 2024 6:07:06 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/orngcoffees/duke.git (master)...
-Feb 19, 2024 6:07:06 PM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/LeeTheGreat/duke.git (master)...
-Feb 19, 2024 6:07:06 PM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/orngcoffees/duke.git (master) completed!
-Feb 19, 2024 6:07:06 PM reposense.report.ReportGenerator updateRepoConfig
-INFO: https://github.com/sbkiang/duke.git (master) does not contain a standalone config file.
-Feb 19, 2024 6:07:06 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
-INFO: Extracting relevant file info from https://github.com/sbkiang/duke.git (master)...
-Feb 19, 2024 6:07:06 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/LeeTheGreat/duke.git (master)...
-Feb 19, 2024 6:07:06 PM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/LeeTheGreat/duke.git (master) completed!
-Feb 19, 2024 6:07:06 PM reposense.report.ReportGenerator updateRepoConfig
+Feb 20, 2024 12:49:03 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/youyiwan/duke.git (master)...
+Feb 20, 2024 12:49:03 AM reposense.report.ReportGenerator analyzeRepos
+INFO: [12/15] Analyzing https://github.com/LeeTheGreat/duke.git (master)...
+Feb 20, 2024 12:49:03 AM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/youyiwan/duke.git (master) completed!
+Feb 20, 2024 12:49:03 AM reposense.report.ReportGenerator analyzeRepos
+INFO: [13/15] Analyzing https://github.com/jelemii/duke.git (master)...
+Feb 20, 2024 12:49:03 AM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/orngcoffees/duke.git (master)...
+Feb 20, 2024 12:49:03 AM reposense.report.ReportGenerator updateRepoConfig
+INFO: https://github.com/LeeTheGreat/duke.git (master) does not contain a standalone config file.
+Feb 20, 2024 12:49:03 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
+INFO: Extracting relevant file info from https://github.com/LeeTheGreat/duke.git (master)...
+Feb 20, 2024 12:49:03 AM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/jelemii/duke.git (master) does not contain a standalone config file.
-Feb 19, 2024 6:07:06 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Feb 20, 2024 12:49:03 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/jelemii/duke.git (master)...
-Feb 19, 2024 6:07:06 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+Feb 20, 2024 12:49:03 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/orngcoffees/duke.git (master)...
+Feb 20, 2024 12:49:03 AM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/JoelEeWH/duke.git (master)...
+Feb 20, 2024 12:49:03 AM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/orngcoffees/duke.git (master) completed!
+Feb 20, 2024 12:49:03 AM reposense.report.ReportGenerator analyzeRepos
+INFO: [14/15] Analyzing https://github.com/sbkiang/duke.git (master)...
+Feb 20, 2024 12:49:03 AM reposense.report.ReportGenerator updateRepoConfig
+INFO: https://github.com/sbkiang/duke.git (master) does not contain a standalone config file.
+Feb 20, 2024 12:49:03 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
+INFO: Extracting relevant file info from https://github.com/sbkiang/duke.git (master)...
+Feb 20, 2024 12:49:03 AM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/LeeTheGreat/duke.git (master)...
+Feb 20, 2024 12:49:03 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/JoelEeWH/duke.git (master)...
+Feb 20, 2024 12:49:03 AM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/JoelEeWH/duke.git (master) completed!
+Feb 20, 2024 12:49:03 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/LeeTheGreat/duke.git (master)...
+Feb 20, 2024 12:49:03 AM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/LeeTheGreat/duke.git (master) completed!
+Feb 20, 2024 12:49:03 AM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/jelemii/duke.git (master)...
-Feb 19, 2024 6:07:06 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Feb 20, 2024 12:49:03 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/jelemii/duke.git (master)...
-Feb 19, 2024 6:07:06 PM reposense.report.ReportGenerator analyzeRepo
+Feb 20, 2024 12:49:03 AM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/jelemii/duke.git (master) completed!
-Feb 19, 2024 6:07:06 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+Feb 20, 2024 12:49:03 AM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/sbkiang/duke.git (master)...
-Feb 19, 2024 6:07:06 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Feb 20, 2024 12:49:03 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/sbkiang/duke.git (master)...
-Feb 19, 2024 6:07:06 PM reposense.report.ReportGenerator analyzeRepo
+Feb 20, 2024 12:49:03 AM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/sbkiang/duke.git (master) completed!
-Feb 19, 2024 6:07:06 PM reposense.report.ReportGenerator generateReposReport
+Feb 20, 2024 12:49:03 AM reposense.report.ReportGenerator generateReposReport
 INFO: The report is generated at /home/runner/work/ip-dashboard/ip-dashboard/reposense-report
-Feb 19, 2024 6:07:06 PM reposense.RepoSense main
-INFO: Elapsed processing time: 1.73 second(s)
+Feb 20, 2024 12:49:03 AM reposense.RepoSense main
+INFO: Elapsed processing time: 1.72 second(s)
